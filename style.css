@@ -1,0 +1,80 @@
+body>section{
+    background-color: lightgrey;
+    max-width: 625px;
+    max-height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image{
+    position: relative;
+    height: 275px;
+}
+
+img{
+    display: inline-block;
+    border-radius: 5px;
+    width: 625px;
+    height: 250px;
+}
+
+.header{
+    height: 62px;
+}
+
+h1{
+    display: inline-block;
+    font-family: "Merriweather", serif;
+    font-size: 30px;
+    
+    color: white;
+}
+
+p{
+    display: inline-block;
+    font-family: "Roboto", serif;
+    font-size: 13px;
+    color: white;
+}
+
+.paragraf{
+    height: 88px;
+}
+
+.buttons{
+    display: inline-block;
+}
+
+button{
+    font-family: "Merriweather", serif;
+    font-size: 12px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 5px 10px;
+    margin-right: 7px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 15px;
+    line-height: 25px;
+}
+
+.topParagraph{
+    display: inline-block;
+    position: absolute;
+    margin-left: 25px;
+    max-width: 500px;
+    top: 10px;
+}
+.midParagraph{
+    display: inline-block;
+    position: absolute;
+    margin-left: 25px;
+    max-width: 500px;
+    top: 285px;
+}
+.botParagraph{
+    display: inline-block;
+    position: absolute;
+    margin-left: 25px;
+    max-width: 500px;
+    top: 550px;
+}
